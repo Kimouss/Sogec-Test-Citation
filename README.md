@@ -58,6 +58,7 @@ L’édition du commentaire est optionnel, mais la suppression doit être prése
 
 * Commande de remplissage de la base de donnée (utilisateur et citation)
 * Commande d’installation du projet
+* Gestion et affichage d'erreur
 
 ## Bonus:
 
