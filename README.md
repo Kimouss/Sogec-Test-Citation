@@ -36,6 +36,7 @@ Une fois connecté, l’utilisateur sera redirigé vers la liste de toutes les c
 
 Un utilisateur connecté doit pouvoir accéder à un formulaire pour pouvoir poster des
 citations. Bien entendu, il pourra éditer ou supprimer ses citations.
+L'utilisation d'un système de ``Voter`` est demandé pour l'édition et suppression des citations de l'utilisateur.
 
 La page “index” des citations devra lister toutes les citations. Chacun des utilisateurs pourra
 cliquer sur la citation “voir la citation” pour accéder à sa page.
@@ -48,11 +49,13 @@ page “voir la citation” de celle-ci.
 
 Lorsque l’on est sur la page de citation, un champ devra être présent pour pouvoir poster un
 commentaire. Celui-ci comportera au maximum 240 caractères.
+Pour la vérification du nombre de caractère maximum, créer un ``Validator`` Symfony auquel on pourra paramétrer le nombre de caractère maximum via une variable d'environnement
 
 Une fois posté, celui-ci s’affichera en dessous avec l’heure et l’utilisateur qui aura envoyé le
 commentaire.
 
-L’édition du commentaire est optionnel, mais la suppression doit être présente.
+L'utilisation d'un système de ``Voter`` est demandé pour l'édition et suppression des commentaires de l'utilisateur.
+
 
 ### Nice to have :
 
